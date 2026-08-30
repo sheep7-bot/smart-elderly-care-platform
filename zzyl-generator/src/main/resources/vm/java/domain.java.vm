@@ -5,11 +5,11 @@ import ${import};
 #end
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.yyzl.common.annotation.Excel;
+import com.zzyl.common.annotation.Excel;
 #if($table.crud || $table.sub)
-import com.yyzl.common.core.domain.BaseEntity;
+import com.zzyl.common.core.domain.BaseEntity;
 #elseif($table.tree)
-import com.yyzl.common.core.domain.TreeEntity;
+import com.zzyl.common.core.domain.TreeEntity;
 #end
 
 /**
